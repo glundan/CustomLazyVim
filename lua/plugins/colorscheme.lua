@@ -19,4 +19,10 @@ return {
       colorscheme = "carbonfox",
     },
   },
+
+  -- Disable tokynight.nvim colorscheme
+  {
+    "folke/tokyonight.nvim",
+    enabled = false
+  },
 }
